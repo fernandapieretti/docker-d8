@@ -1,0 +1,33 @@
+/**
+ * Gradient background in body
+ */
+body {
+  background-image: linear-gradient(LightBlue, DarkBlue);
+  min-height: calc(100vh - 15px); }
+
+/**
+ * Gray box in article image
+ */
+article.full .field--name-field-image {
+  display: inline-block;
+  position: relative; }
+  article.full .field--name-field-image:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: gray;
+    opacity: .8;
+    -webkit-transition: opacity 0.5s ease-in-out;
+      -webkit-transition--moz-transition: opacity 0.5s ease-in-out;
+        -webkit-transition--moz-transition--ms-transition: opacity 0.5s ease-in-out;
+          -webkit-transition--moz-transition--ms-transition--o-transition: opacity 0.5s ease-in-out;
+            -webkit-transition--moz-transition--ms-transition--o-transition-transition: opacity 0.5s ease-in-out; }
+  article.full .field--name-field-image:hover:after {
+    opacity: 0; }
+
+/*# sourceMappingURL=style.css.map */

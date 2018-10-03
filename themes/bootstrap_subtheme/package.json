@@ -1,0 +1,9 @@
+{
+  "name": "drupal-bootstrap",
+  "version": "8.3.0-dev",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-sass": "^3.0.1",
+    "node-sass": "^4.9.3"
+  }
+}
