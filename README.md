@@ -17,7 +17,7 @@ The admin user and password for the site are 'admin'.
 
 Select the theme named ˜bootstrap_subtheme˜ in order to see the modifications.
 
-##Details of the challenge
+## Details of the challenge
 1) Clone https://github.com/mcewand/docker-d8 and follow the directions.
 Done.
 
